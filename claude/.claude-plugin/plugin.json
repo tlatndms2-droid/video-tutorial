@@ -1,0 +1,10 @@
+{
+  "name": "video-tutorial",
+  "version": "0.1.0",
+  "description": "영상 자료화 — 유튜브 영상이나 보유한 MP4·SRT로 한국어 자막 클립, 주석 캡처, 움짤이 들어간 Obsidian 튜토리얼을 만든다. 장면 분석에는 video-timestamp-analyzer 플러그인을 함께 쓴다.",
+  "author": { "name": "tlatndms2-droid" },
+  "homepage": "https://github.com/tlatndms2-droid/video-tutorial",
+  "repository": "https://github.com/tlatndms2-droid/video-tutorial",
+  "license": "MIT",
+  "keywords": ["video", "tutorial", "obsidian", "ffmpeg", "yt-dlp", "korean"]
+}
