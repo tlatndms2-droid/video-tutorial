@@ -7,7 +7,7 @@
       "name": "video-tutorial",
       "source": "./claude",
       "description": "영상에서 한국어 자막 클립·주석 캡처·움짤이 든 Obsidian 튜토리얼까지",
-      "version": "0.1.0"
+      "version": "0.1.1"
     }
   ]
 }

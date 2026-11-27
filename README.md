@@ -5,7 +5,7 @@ YouTube 영상이나 보유한 영상 파일로 한국어 Obsidian 튜토리얼�
 | | Codex 버전 | Claude Code 버전 |
 |---|---|---|
 | 위치 | 저장소 루트 (`src/`, `dist/`, `skills/`, `mcp.json`) | `claude/` 폴더 |
-| 버전 | `0.1.0` | `0.1.0` |
+| 버전 | `0.1.0` | `0.1.1` |
 | 함께 쓰는 분석기 | Codex용 영상 타임스탬프 분석기 | Claude Code용 [video-timestamp-analyzer](https://github.com/tlatndms2-droid/video-timestamp-analyzer) |
 | 작업 임시 폴더 | `%LOCALAPPDATA%\Codex\VideoTutorial\jobs` | `%LOCALAPPDATA%\Claude\VideoTutorial\jobs` |
 
