@@ -1,0 +1,21 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "video-tutorial",
+  "version": "0.1.0",
+  "description": "Build Korean video tutorials with timestamped clips, annotated captures, and Obsidian Markdown.",
+  "author": { "name": "Local workspace" },
+  "extensions": {
+    "com.openai": {
+      "requires_local_executor": true,
+      "interface": {
+        "displayName": "영상 자료화",
+        "shortDescription": "영상에서 Obsidian 튜토리얼까지",
+        "longDescription": "타임스탬프 분석 결과를 바탕으로 한국어 자막 클립, 주석 캡처, 움짤을 만들고 Obsidian 노트로 묶습니다.",
+        "developerName": "Local workspace",
+        "category": "Productivity",
+        "capabilities": ["Interactive", "Read", "Write"],
+        "defaultPrompt": "영상과 자막으로 Obsidian 튜토리얼을 만들어줘"
+      }
+    }
+  }
+}

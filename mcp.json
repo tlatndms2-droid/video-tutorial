@@ -1,0 +1,11 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "video-tutorial": {
+      "type": "stdio",
+      "command": "node.exe",
+      "args": ["dist/server.cjs"],
+      "cwd": "${PLUGIN_ROOT}"
+    }
+  }
+}
